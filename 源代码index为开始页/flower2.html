@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="cn-zh">
+<head>
+    <!-- 指定文档的字符编码 -->
+    <meta charset="UTF-8" />
+    <!-- 设置视口，使网站在所有设备上看起来都不错 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 链接到外部样式表，用于卡片样式 -->
+    <link rel="stylesheet" href="./styles/card.css" />
+    <!-- 链接到外部样式表，用于常见样式 -->
+    <link rel="stylesheet" href="./styles/common.css" />
+    <!-- 网页标题（目前为空） -->
+    <title></title>
+</head>
+<body>
+    <section>
+        <!-- “About”部分的标题文本 -->
+        <span>About</span>
+        <!-- “Sulfur Cosmos”部分的主标题 -->
+        <h2>Sulfur Cosmos</h2>
+        <!-- 描述硫磺波斯菊植物的段落 -->
+        <p>
+            Sulfur Cosmos, also known as Cosmos sulphureus, is a species of
+            flowering plant in the sunflower family. It is native to Mexico, Central
+            America, and northern South America, but it has been introduced into the
+            United States, Europe, Asia, and Australia. The flowers are known for
+            their bright yellow, orange, or red hues, making them a popular choice
+            for gardens.
+        </p>
+        <!-- 使用特定颜色变量样式的水印文本 -->
+        <span class="bg-watermark" style="color: var(--color-yellow)">
+            Sulfur Cosmos
+        </span>
+        <!-- 卡片元素的容器 -->
+        <div class="cards">
+            <!-- 第一个卡片，包含图片和有关特征的内容 -->
+            <div class="card">
+                <!-- 硫磺波斯菊的图片 -->
+                <img src="./imgs/Sulfur Cosmos_01.jpg" />
+                <!-- 卡片内容，包含副标题和特征列表 -->
+                <div class="card-content">
+                    <h3>Characteristics</h3>
+                    <p>Family: Asteraceae</p>
+                    <p>Genus: Cosmos</p>
+                    <p>Height: 1–6 ft</p>
+                    <p>Flowering season: Summer to autumn</p>
+                </div>
+            </div>
+            <!-- 第二个卡片，包含图片和有关意义的内容 -->
+            <div class="card">
+                <!-- 黄色花朵的图片 -->
+                <img src="./imgs/flower-yellow.png" />
+                <!-- 卡片内容，包含副标题和一段关于意义的文字 -->
+                <div class="card-content">
+                    <h3>Significance</h3>
+                    <p>
+                        Sulfur Cosmos are appreciated for their vibrant colors and ability
+                        to attract pollinators such as bees and butterflies.
+                    </p>
+                </div>
+            </div>
+            <!-- 第三个卡片，包含图片和有关护理提示的内容 -->
+            <div class="card">
+                <!-- 硫磺波斯菊的图片 -->
+                <img src="imgs/Sulfur Cosmos_02.jpg" />
+                <!-- 卡片内容，包含副标题和护理提示列表 -->
+                <div class="card-content">
+                    <h3>Care Tips</h3>
+                    <p>Plant in full sun to partial shade.</p>
+                    <p>Prefer well-drained soil.</p>
+                    <p>Water moderately, allowing the soil to dry between watering.</p>
+                    <p>Deadhead spent flowers to encourage more blooms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
